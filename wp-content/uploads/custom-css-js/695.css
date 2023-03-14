@@ -1,0 +1,397 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+@media screen and (min-width: 1560px and max-width: 1770px){
+  .container, .row{
+    max-width: 1670px !important;
+  }
+ 
+}
+@media screen and (min-width: 1771px){
+  .container, .row{
+    max-width: 1670px !important;
+  }
+  .home .section-1 .row{
+    max-width: 100% !important;
+  }
+   .home .section-3 .row{
+    max-width: 100% !important;
+  }
+   .header-main {
+    height: 78px !important;
+}
+ .home .four_col_gt .col.medium-3.small-6.large-3 > .col-inner {
+    padding: 30px !important;
+}
+  .nav>li>a {
+    font-size: 1rem;
+}
+}
+@media screen and (min-width:1441px){
+.nav>li>a {
+    font-size: 1rem;
+}
+  h1{
+  font-size: 2.3em;
+}
+/*   .home header{
+  position: absolute;
+ top: 92.5vh;
+} */
+  .home .wpcp-carousel-section.nav-vertical-center{
+    padding: 0 100px !important;
+  }
+  .home .wpcp-carousel-section.slick-initialized .slick-slide{
+/*     width: 10rem !important;
+    height: 10rem !important; */
+/*     margin-right: 120px !important; */
+  }
+/*   .wpcp-carousel-section.slick-initialized .slick-slide{
+    margin-right: 0 !important;
+  }
+   .home .wpcp-carousel-section .slick-slide{
+    width: 15vw !important;
+  } */
+   .home .four_col_gt{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+   .four_col_gt .col.medium-3.small-6.large-3 > .col-inner {
+    height: 13rem !important;
+}
+  .four_col_gt img{
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .four_col_gt .col.medium-9.small-8.large-9{
+    padding: 10px 0 0 !important;
+  }
+  .four_col_gioithieu .box-text{
+    padding-bottom: 1em !important;
+  }
+  .four_col_gioithieu .col.medium-3.small-6.large-3 > .col-inner{
+    height: 11.6em !important;
+  }
+  /* trang gioi thiệu */
+.khung_tamnhin > .col-inner,.khung_sumenh > .col-inner{
+  height: 35vh !important;
+  padding:1rem 1rem 2rem 1rem;
+  }
+/* trang dịch vụ */
+  .dot_2, .dot_3, .dot_4{
+    top: 68vh !important;
+  }
+/*  tuyển dụng  */
+  .portfolio-single-page .large-3.col.col-first img{
+    width: 400px;
+  }
+  .l_gap{display: none !important;}
+/*  liên hệ  */
+  .lienhe_row1{
+    max-width: 1650px !important;
+  }
+  .xl_lienhe_form{
+    padding: 0 15px !important;
+  }
+  .col_icon_address .img{ 
+    width: 40% !important;
+  }
+  .xl_lienhe_map{
+    padding: 0 15px !important;
+  }
+  .xl_lienhe_map iframe{
+    width: 100% !important;
+  }
+  .row-small>.col {
+    padding: 0 9.8px 2rem !important;
+    margin-bottom: 0;
+}
+  .banggia_xemthem_cate .row-small>.col{
+    padding: 0 9.8px 1.5rem !important;
+  }
+  .page-right-sidebar .large-3.col {
+    margin-top: 30px !important;
+}
+  .portfolio-single-page .large-3.col{
+    margin-top:3rem !important;
+  }
+    .footer_bottom{
+      max-width: 100% !important;
+    position: absolute;
+    top:32vh;
+  }
+  .footer_main{
+    position: absolute;
+    left: 6%;
+    bottom: -15vh;
+  }
+   h2.portfolio-box-title{
+    text-decoration: dotted;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1440px){
+  
+  body{
+    font-size: 90%;
+  }
+/*   .home header{
+  position: absolute;
+  top: 90.5vh;
+
+} */
+  .nav>li>a {
+    font-size: 0.8rem;
+}
+   .xl_gap{
+    display: none !important;
+  }
+  .home .wpcp-carousel-section.nav-vertical-center{
+    padding: 0 100px !important;
+  }
+  .home .wpcp-carousel-section .wpcp-single-item img{
+  max-width: 8rem !important;
+
+}
+ 
+   .khung_tamnhin > .col-inner,.khung_sumenh > .col-inner{
+  height: 42vh !important;
+}
+/*   .home .tabbed-content{
+    max-height:60vh;
+  } */
+  .home .tabbed-content img{
+    height:58vh;
+  }
+  .home .tabbed-content .img-inner.image-cover.dark{
+    padding-top: 58vh !important;
+  }
+  .home .tabbed-content .tab_indexs{
+    font-size: 3rem !important;
+  }
+  .home .four_col_gt img{
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .home .four_col_gt > .col-inner{
+    height: 13rem !important;
+  }
+  .home .four_col_gt .gioithieu_text{
+    margin-top: -30px;
+  }
+/*   .four_col_gt .col.medium-3.small-6.large-3 .col-inner{
+    height: 13rem;
+  } */
+  .four_col_gioithieu .box-text{
+    padding-bottom: 1em !important;
+  }
+  .flag_phone{margin-bottom: -15px;}
+ 
+  .gioithieu_text1{
+    font-size: 0.8em !important;
+  }
+  .footer_bottom{
+    position: absolute;
+    top:28vh;
+  }
+  .footer_main{
+    position: absolute;
+    left: 5.8%;
+    bottom: -15vh;
+  }
+  h2.portfolio-box-title{
+    text-decoration: dotted;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (max-width:768px){
+   .xl_gap{
+    display: none !important;
+  }
+  .is-full-height{
+    height: auto !important;
+  }
+ 	.home .text_tndv{
+    font-size: 18px !important;
+    line-height: 124% !important;
+  }
+  .home .tab_indexs{
+    font-size: 2rem !important;
+  }
+  .home .four_col_gt{
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    font-size: 90%;
+  }
+/*   .four_col_gt .col.medium-3.small-6.large-3 > .col-inner {
+    height: 18rem !important;
+} */
+  .home .tabbed-content ul li a span{
+    font-size: 0.8em !important;
+  }
+  
+  .home .tabbed-content .nav>li{
+    height: 6rem;
+}
+  .home .tab-panels{
+    font-size: 90%;
+  }
+  .home .tab-panels h1{
+    margin-top: -20px;
+  }
+  .home .four_col_gt img{
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .home .four_col_gt .gioithieu_text{
+    margin-top: -30px;
+  }
+  /*   giới thiệu */
+  .khung_tamnhin > .col-inner,.khung_sumenh > .col-inner{
+  height: 43vh !important;
+   
+}
+  .khung_tamnhin{
+    margin-right: 5px;
+    margin-left: -5px;
+  }
+  .khung_sumenh{
+    margin-right: -5px;
+    margin-left: 5px;
+  }
+  .tamnhin{
+    padding: 0 !important;
+  }
+   aside .box-image{
+    display: none;
+  }
+  .portfolio-single-page .large-9.col.col-first{
+    max-width: 100% !important;
+    margin-right: 0 !important;
+  }
+  .flag_phone .box-image{
+    float: left;
+    margin-right: 10px;
+  }
+  .page-right-sidebar button{
+    margin-right: 0 !important;
+  }
+  .col_uudai{
+    margin-bottom: 20px;
+  }
+  .footer_col_icon_1 .is-border{
+    border-width: 0 0 1px 0 !important;
+  }
+  .footer_col_icon_3 .is-border{
+    border-width: 1px 0 0 0 !important;
+  }
+  .has-shadow .box-text.text-left{
+    padding-bottom:5.4em!important;
+  }
+}
+@media screen and (max-width: 548px){
+   .col_lienhe_flag .box-vertical .box-image {
+    float: left;
+    margin-right: 10px;
+    max-width: 12%;
+}
+  .lienhe_row1{
+    max-width: 390px!important;
+  }
+  .col_lienhe_flag .col-inner{
+    padding: 0 40px !important;
+  }
+  .flag_phone .box-text{
+    padding-top: 0 !important;
+  }
+  .dv_for_mobile .img{
+    margin-bottom: -7rem !important;
+  }
+  .dv_for_mobile img{
+    max-height: 22vh;
+  }
+   .flickity-prev-next-button{
+    background-color: #333333 !important;
+      display: block !important;
+      top: 85% !important;
+  }
+  .dv_mobile_row1{
+    height: 65vh;
+  }
+  footer .ux-logo img{
+    height: auto !important;
+  }
+  footer .footer_title{
+    font-size:0.9em;
+  }
+  footer .social-icons a {
+    margin: 0 2px !important; 
+  }
+	.four_col_gioithieu .box-vertical .box-image {
+    width: 11% !important;
+    float: left;
+    margin-right: 20px;
+}
+  .four_col_gioithieu{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 426px){
+  .tablepress .row-1 th{
+    padding: 10px 5px !important;
+    font-weight: 300;
+    font-size: 0.6em;
+  }
+  .khung_tamnhin > .col-inner, .khung_sumenh > .col-inner {
+    height: 47vh !important;
+}
+}
+@media screen and (max-width:375px){
+   .four_col_gt .col.medium-3.small-6.large-3 > .col-inner {
+    height: 20rem !important;
+}
+  .home .tabbed-content .nav>li{
+    height: 7.3rem;
+}
+  .dv_for_mobile img{
+    max-height: 19vh;
+  }
+
+/*   giới thiệu */
+  .khung_tamnhin > .col-inner,.khung_sumenh > .col-inner{
+  height: 52vh !important;
+}
+  .tablepress{
+    font-size: 90%;
+  }
+  .lienhe_row1{
+    max-width: 350px!important;
+  }
+  
+}
+@media screen and (max-width:360px){
+    .khung_tamnhin > .col-inner,.khung_sumenh > .col-inner{
+  height: 56vh !important;
+}
+  }
+</style>
+<!-- end Simple Custom CSS and JS -->

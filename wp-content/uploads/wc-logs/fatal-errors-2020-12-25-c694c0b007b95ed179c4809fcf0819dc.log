@@ -1,0 +1,6 @@
+2020-12-25T03:53:13+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp\htdocs\cambodiaship\wp-content\themes\flatsome\functions.php on line 105
+
+2020-12-25T04:34:01+00:00 CRITICAL syntax error, unexpected 'clearfix' (T_STRING) in D:\xampp\htdocs\cambodiaship\wp-content\themes\flatsome\functions.php on line 112
+
+2020-12-25T09:46:38+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in D:\xampp\htdocs\cambodiaship\wp-content\themes\flatsome\template-parts\portfolio\single-portfolio-sidebar-right.php on line 19
+

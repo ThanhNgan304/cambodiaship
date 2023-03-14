@@ -1,0 +1,555 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+h1, h2, h3, h4, h5, h6, p, span, .nav > li > a, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+    font-family: Tahoma !important;
+}
+.home .spu-box .spu-container{
+  padding: 0 !important;
+}
+strong {
+    font-weight: bold !important;
+}
+.footer_link:hover{
+  color: #0055a4 !important;
+}
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+    width: 16px !important;
+    height: 16px !important;
+  	margin: -8px 0 0 -8px !important;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span, .fp-slidesNav ul li a span{
+    width: 8px !important;
+    height: 8px !important;
+  	margin: -4px 0 0 -4px !important;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  background-color: #f18900 !important;
+}
+#fp-nav ul li .fp-tooltip {
+    top: -6px !important;
+    color: #f18900 !important;
+    font-family:Tahoma !important;
+}
+.home_slide .slider-nav-light .flickity-prev-next-button svg, .slider-nav-light .flickity-prev-next-button .arrow {
+    fill: #f18900!important;
+}
+.home_slide .flickity-prev-next-button.previous{
+  left: 3% !important;
+}
+.home_slide .flickity-prev-next-button.next{
+  right: 3% !important;
+}
+/* .fullpage{
+  transform: translate3d(0px, -60px, 0px);
+} */
+.btn_dangky, .btn_xemthem{
+  font-weight: 300 !important;
+}
+.copyright-footer{
+  color: #333333;
+}
+/* header */
+.header-language-dropdown .image-icon{
+  margin-right: 5px;
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper.stuck .header-bg-color.fill{
+  background-color: rgba(255,255,255,0.75) !important; }
+.header-wrapper.stuck{
+  background-color: rgba(255,255,255,0.75) !important; }
+.stuck .header-main .nav > li > a{
+  line-height: unset !important;
+}
+.stuck #logo img{
+    max-height: 34px!important;
+}
+ #logo img {
+    max-height: 34px!important;
+}
+
+.home .slick-next{
+  margin-right: 2rem;
+}
+.btn_xemchitiet_dv{
+  font-weight: 300 !important;
+}
+.tabbed-content .col{
+  padding-bottom: 0 !important;
+}
+.tabbed-content .nav-tabs>li>a{
+  border: none !important;
+}
+.tabbed-content .nav-line > li > a:before{
+  background-color:  #FCA100;
+  height: 7px;
+  top:-7px;
+  border-radius: 4px 4px 0px 0px;
+}
+.tabbed-content .nav-tabs>li.active>a{
+  background-color: #FFFFFF !important;
+  margin-top: -7px;
+}
+.tabbed-content .nav>li>a{
+  font-size: 1.2em !important;
+  color: #333333;
+}
+.tabbed-content .nav>li{
+  background-color: #f0f0f0;
+  padding-left: 10px;
+  margin: 0 2px;
+}
+.tabbed-content .nav>li.active{
+   background-color: #ffffff;
+  filter: drop-shadow(0px 2px 4px rgba(54, 54, 54, 0.15));
+
+}
+.home .gallery-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .tab_index{
+  display: block !important;
+ font-style: normal;
+font-weight: bold;
+color: #CCCCCC;
+opacity: 0.5;
+  margin-right: 10px;
+}
+.home .wpcp-single-item{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+}
+
+#sp-wp-carousel-free-id-353.sp-wpcp-353 .slick-prev i, #sp-wp-carousel-free-id-353.sp-wpcp-353 .slick-next i {
+    color: #aaa;
+    padding: 10px 18px;
+    border: solid 2px #c5c5c5;
+}
+#sp-wp-carousel-free-id-353.sp-wpcp-353 .slick-prev i, #sp-wp-carousel-free-id-353.sp-wpcp-353 .slick-next {
+   font-size: 50px;
+}
+
+/* portfolio tin tức */
+
+.portfolio_excerpt {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.portfolio-posted-on:before{
+   content: "";
+    display: inline-block;
+    background: url(/cambodiaship/wp-content/uploads/2020/12/calendar-1.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background-size: contain;
+    margin-right: 10px;
+}
+aside .tabbed-content ul{
+  position: absolute;
+    top: 1rem;
+  padding-right: 0 !important;
+}
+aside .tabbed-content ul li{
+  width: 24% !important;
+  height: 2.5rem;
+}
+aside .tabbed-content ul li.active, aside .tabbed-content ul li:hover{
+  border-bottom: solid 4px #FCA100;
+  margin-top: 4px;
+  border-radius: 0px 0px 4px 4px; 
+}
+
+aside .tabbed-content .nav>li>a{
+  font-size: 0.6em !important;
+  display: flex;
+    justify-content: center;
+}
+aside .tabbed-content .nav>li{
+  padding-left: 0 !important;
+}
+aside .tabbed-content .tab-panels{
+  position: absolute;
+   top: 3.5rem;
+}
+aside .box-image{
+  width: 0% !important;
+}
+
+
+aside .box-text{
+  padding-bottom: 0 !important;
+}
+aside h2{
+ font-size:1em;
+  color: #666666;
+}
+aside h2:hover{
+  color: #333333;
+}
+aside h2:before{
+  font-family: 'FontAwesome';
+  content: '\f111';
+  font-size: 5px;
+  margin-right: 5px;
+  vertical-align: center;
+}
+aside h5:before{
+  font-family: 'FontAwesome';
+  content: '\f111';
+  font-size: 5px;
+  margin-right: 5px;
+  vertical-align: center;
+}
+aside .portfolio-posted-on, aside .portfolio_excerpt,aside .portfolio-box-category,aside .button{display:none !important;}
+.featured_item_cats.breadcrumbs.mb-half{
+  display: none;
+}
+.large-9 .portfolio-box-category{
+  display: none;
+}
+.tabbed-content ul{
+  padding-right: 15px;
+}
+.page-right-sidebar .large-3.col{
+  border: solid 1px #828286;
+  height: fit-content;
+    min-height: 30rem;
+}
+/* tuyển dụng */
+ .tuyen_dung_page button{
+  float: left !important;
+}
+.tuyen_dung_page .portfolio-box-category{
+  display: none;
+}
+.related_tuyen_dung .image-cover{
+  padding-top: 100% !important;
+}
+.tuyen_dung_img_left img{
+  width: 100% !important;
+}
+/* tin tức */
+.list_tin .portfolio-box-category{
+  display: none;
+}
+/* relates */
+.portfolio-related .box-text.text-center{text-align:left;}
+.related_news .portfolio-related .divider{display:block !important;}
+.related_news .portfolio-related button{
+  background-color: transparent !important;
+  color: #FCA100;
+  margin-top: 0.5em !important;
+}
+.related_news .portfolio-related button:hover{
+  background-color: #FCA100 !important;
+  color: #ffffff;
+  
+}
+.related_news .portfolio-related .portfolio-box-category{
+  margin-top:1.1em;
+}
+.related_news .portfolio-related .portfolio-box-category:before{
+   content: "";
+    display: inline-block;
+    background: url(/cambodiaship/wp-content/uploads/2020/12/flag-1.png) no-repeat;
+    width: 20px;
+  	height: 30px;
+    float: left;
+    background-size: contain;
+    margin-right: 5px;
+}
+.related_tuyen_dung .portfolio-box-category{
+  display: none;
+}
+/* trang gioi thiệu */
+.khung_tamnhin > .col-inner,.khung_sumenh > .col-inner{
+  height: 40vh;
+}
+.gioithieu_tintuc .portfolio-box-category{
+  display: block;
+  margin-top: 2em;
+}
+.gioithieu_tintuc .box-text .divider{
+  display: block !important;
+}
+.gioithieu_tintuc .portfolio-box-category:before{
+   content: "";
+    display: inline-block;
+    background: url(/cambodiaship/wp-content/uploads/2020/12/flag-1.png) no-repeat;
+    width: 20px;
+  	height: 30px;
+    float: left;
+    background-size: contain;
+    margin-right: 5px;
+}
+.gioithieu_tintuc button{
+  margin-right: 0 !important;
+}
+/* trang dịch vụ */
+.dot_1{
+  position: absolute;
+    top: 1rem;
+}
+.dot_2{
+  position: absolute;
+    top: 88vh;
+  right: 0;
+  z-index: 10;
+}
+.dot_3{
+  position: absolute;
+  top: 88vh;
+  z-index: 10;
+}
+.dot_4{
+  position: absolute;
+  top: 88vh;
+  right:0;
+  z-index: 10;
+}
+.page-id-595 .section-content{
+  z-index: 9;
+}
+
+.label_uudai > .col > .col-inner {
+    border-radius: 8px 8px 0 0;
+}
+.btn_dangky1{
+  font-weight: 300;
+}
+/* class for js */
+.col_uudai > .col-inner{
+  transition: all .2s ease-in-out;
+}
+.col_uudai_hover{
+  transform: scale(1.1);
+   z-index: 1;
+}
+.label_uudai_hover{
+  background-color: #E5200E !important;
+}
+.label_uudai_text_hover{
+  color: #ffffff;
+}
+/* .position_header_bottom{
+  position: absolute;
+  bottom: 100%;
+  
+} */
+.dropdownmenu_icon:after{
+  bottom: auto !important;
+  transform: rotate(180deg) !important;
+  top: -2px !important;
+}
+.dropdownmenu_icon:before{
+  bottom: auto !important;
+  transform: rotate(180deg) !important;
+   top: -2px !important;
+}
+.position_header_head{
+  position: absolute;
+  top: 10%;
+}
+.header_banner{
+  position: absolute;
+}
+.header_transition_op{
+   animation: op3 1s;
+}
+@keyframes op3{
+  0%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+/* @media screen and (min-width:1441px){
+    .header_banner{
+      top: 92.5vh;
+      animation: op1 1s;
+      transition:bottom 1s linear;
+}
+}
+@keyframes op1{
+  0%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1440px){
+     .header_banner{
+       top: 90.5vh;
+        animation: op2 1s;
+        transition:bottom 1s linear;
+}
+} */
+@keyframes op2{
+  0%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+/*  */
+/* popup */
+.wppopups-whole .wpcf7{margin-top: 2rem;}
+.wppopups-whole form{text-align:center;}
+.spu-box .spu-container{
+  padding: 1rem 4rem 0 4rem !important;
+}
+@media screen and (max-width:768px){
+  .spu-box .spu-container{
+  padding: 1rem 2rem 0 2rem !important;
+}
+}
+.wpcf7 .wpcf7-form-control-wrap {
+    font-weight: 400;
+  margin-bottom: -10px;
+}
+.wppopups-whole .wpcf7-form-control.wpcf7-submit{
+  margin-top: 1rem ;
+    background-color: #FCA100;
+    text-transform: none;
+    font-weight: 400;
+    border-radius: 8px;
+}
+.wppopups-whole .spu-box{
+  border-radius:6px;
+}
+/* trang liên hệ */
+
+
+.lienhe_row1{
+  background-color: #ffffff;
+  border-left: solid 10px #FCA100;
+    border-radius: 5px;
+}
+.page-lienhe-row .wpcf7-form-control.wpcf7-submit {
+    background-color: #FCA100;
+    text-transform: none;
+    font-weight: 400;
+    padding: 5px 80px;
+}
+.page-lienhe-row textarea{
+  height: 10rem;
+}
+.col_icon_address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* trang bảng giá */
+.banggia_row .portfolio-posted-on,.banggia_row .portfolio_excerpt,.banggia_row .portfolio-box-category,.banggia_row .button,.banggia_row .navigation	{
+  display: none !important;
+}
+.banggia_row .portfolio-element-wrapper  h2{
+  font-size: 1.2em !important;
+    text-transform: none !important;
+}
+.banggia_row .portfolio-element-wrapper  h2:before{
+  content: "";
+    display: inline-block;
+    background: url(/cambodiaship/wp-content/uploads/2020/12/right-arrow3-1.png) no-repeat;
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-size: contain;
+    margin-right: 10px;
+  margin-top: 4px;
+}
+.banggia_row .box-text{
+  padding-bottom: 0 !important;
+}
+/*  */
+/* .pagenavi{
+ 
+margin: 20px 0 20px 0;
+text-align: right;
+}
+ 
+.pagenavi span,.pagenavi a{color: #666666;padding:3px;margin-right:5px;background:transparent}
+ 
+.pagenavi a:hover,.pagenavi .current{background:#FCA100;color:#ffffff;text-decoration:none; border-radius: 50%;}
+ 
+.pagenavi .page-numbers{color: #666666;font-weight: 300;}
+ 
+.pagenavi .current{color: #ffffff;}
+ 
+.pagenavi .page-numbers{border:none;padding: 8px 12px;} */
+/*  */
+.navigation{
+  text-align: right;
+}
+.navigation li a{
+  color: #666666;
+}
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+	
+	text-decoration:none;
+}
+.navigation li {
+	display: inline;
+}
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+	cursor: pointer;
+	padding: 12px 16px;
+}
+.navigation li a:hover,
+.navigation li.active a {
+  color: #fff;
+	background-color: #FCA100;
+  border-radius: 50%;
+}
+.navigation li a:last-of-type:hover{
+  color: #FCA100;
+  background-color: #ffffff;
+}
+.tabs_en .nav>li>a{
+  font-size: 1em !important;
+}
+.tabs_km .nav>li>a{
+  font-size: 0.9em !important;
+}
+.dichvu_ud_km .portfolio-posted-on,.dichvu_ud_km .portfolio_excerpt,.dichvu_ud_km .portfolio-box-category,.dichvu_ud_km .navigation,.dichvu_ud_km button{
+  display: none !important;
+}
+.dichvu_ud_km .box-text{
+  top: 0;
+    position: ABSOLUTE;
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(240, 240, 240);
+}
+.dichvu_ud_km .box-image{
+  top: 2.5rem;
+}
+.dichvu_ud_km h2{
+  font-size: 1em;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

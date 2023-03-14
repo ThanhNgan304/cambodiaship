@@ -1,0 +1,6 @@
+2020-12-24T04:43:15+00:00 CRITICAL syntax error, unexpected 'post' (T_STRING) in /home/demo8/domains/demo8.wsas.vn/public_html/cambodiaship/wp-content/themes/flatsome/functions.php on line 47
+
+2020-12-24T07:01:59+00:00 CRITICAL syntax error, unexpected '<' in /home/demo8/domains/demo8.wsas.vn/public_html/cambodiaship/wp-content/themes/flatsome/functions.php on line 61
+
+2020-12-24T07:02:55+00:00 CRITICAL syntax error, unexpected end of file in /home/demo8/domains/demo8.wsas.vn/public_html/cambodiaship/wp-content/themes/flatsome/functions.php on line 67
+
